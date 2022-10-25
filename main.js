@@ -10,13 +10,26 @@
 
 // SNACK 1 DONE //
 
-let number = parseInt(prompt('inserisci un numero'));
+// let number = parseInt(prompt('inserisci un numero'));
 
-if (number % 2 === 0) {
-    console.log(number)
+// if (number % 2 === 0) {
+//     console.log(number)
 
-} else{
-    console.log(number + 1)
-}
+// } else{
+//     console.log(number + 1)
+// }
+
+
+// SNACK 2  DONE // 
+
+let firstname = ["Paolo", "Luca", "Giovanni", "Tullio"];
+let firstnameL = firstname.length;
+
+
+let lastname = ["Rossi", "Monti", "Fesa", "Giusti"];
+let lastnameL = lastname.length;
+
+
+console.log(firstname[Math.round(Math.random() * (firstnameL - 1))] + ' ' + lastname[Math.round(Math.random() * (lastnameL -1 ))])
 
 
