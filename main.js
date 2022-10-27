@@ -22,28 +22,31 @@
 
 // SNACK 2  DONE // 
 
-// let firstname = ["Paolo", "Luca", "Giovanni", "Tullio"];
-// let firstnameL = firstname.length;
+let firstname = ["Paolo", "Luca", "Giovanni", "Tullio"];
+let firstnameL = firstname.length;
 
 
-// let lastname = ["Rossi", "Monti", "Fesa", "Giusti"];
-// let lastnameL = lastname.length;
+let lastname = ["Rossi", "Monti", "Fesa", "Giusti"];
+let lastnameL = lastname.length;
 
 
-// console.log(firstname[Math.round(Math.random() * (firstnameL - 1))] + ' ' + lastname[Math.round(Math.random() * (lastnameL -1 ))])
+console.log(firstname[Math.round(Math.random() * (firstnameL - 1))] + ' ' + lastname[Math.round(Math.random() * (lastnameL -1 ))]);
+console.log(firstname[Math.round(Math.random() * (firstnameL - 1))] + ' ' + lastname[Math.round(Math.random() * (lastnameL -1 ))]);
+console.log(firstname[Math.round(Math.random() * (firstnameL - 1))] + ' ' + lastname[Math.round(Math.random() * (lastnameL -1 ))]);
+console.log(firstname[Math.round(Math.random() * (firstnameL - 1))] + ' ' + lastname[Math.round(Math.random() * (lastnameL -1 ))]);
 
 
 // SNACK 3  DONE //
 
-let numbers = [1 , 3 , 4, 7, 9, 10];
+// let numbers = [1 , 3 , 4, 7, 9, 10];
 
 
-let somma = 0;
+// let somma = 0;
 
-for(let i = 1; i < numbers.length; i= i+2){
-    somma += numbers[i];
-}
+// for(let i = 1; i < numbers.length; i= i+2){
+//     somma += numbers[i];
+// }
 
-console.log("somma è uguale a : ", somma);
+// console.log("somma è uguale a : ", somma);
 
 
